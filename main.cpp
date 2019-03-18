@@ -10,4 +10,13 @@ int main()
     cout << "A + B = " << a + b << '\n'
      << "A - B = " << a - b << '\n'
      <<"A * B = " << a*b<< '\n'
-     <<"A / B = " << a/b<< '\N';
+     <<"A / B = " << a/b<< '\n';
+     if (a>b)
+     {
+         cout<<"MIN=" << b <<'\n'
+     }
+     else
+     {
+         cout<<"MIN=" << a <<'\n';
+     }
+}
